@@ -15,7 +15,7 @@ body {
 }
 
 .imgSUVIAL{
-    background-image: url('https://minecraft.wiki/images/thumb/Survival_1.21.5.png/1200px-Survival_1.21.5.png?a497d'); /* Define a imagem */
+    background-image: url('../img/paisagem.jpg'); /* Define a imagem */
     background-size: cover; /* ESSENCIAL: Faz a imagem cobrir toda a área */
     background-position:  bottom center; /* Centraliza a imagem e o bottom faz ela ficar com a parte de baixo aparecendo */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
@@ -132,4 +132,9 @@ body {
 #contagem{
     font-size: 35px;
     color: #803ef5;
+}
+
+.texto{
+    position: fixed;
+    top: 0;
 }
