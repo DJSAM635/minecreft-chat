@@ -115,14 +115,22 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function modo(mod) {
-    var link = document.createElement('a'); 
-
+    var link = document.createElement('a');
     switch (mod) {
         case '/gamemode1 @s':
             enviar('index.html', true);
             break;
         case '/gamemode2 @s':
             enviar('creative.html', true);
+            break;
+        case '/hero':
+            enviar('HERO.HTML', true);
+            break;
+        case '/404':
+            enviar('ent404.html', true);
+            break;
+        case '/casa':
+            enviar('casa.html', true);
             break;
         case '/help':
             comandosHelp();
@@ -261,6 +269,11 @@ function modo(mod) {
 function comandosHelp(){
     var chat = document.getElementById('chatDisplay');
     var comandos = {
+        '/gamemode1 @s':'survial',
+        '/gamemode2 @s':'creative',
+        '/casa':'casa',
+        '/404': 'secret-404',
+        '/hero':'secreto',
         '/yt': 'YouTube',
         '/gg': 'Google',
         '/fb': 'Facebook',

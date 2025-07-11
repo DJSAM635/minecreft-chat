@@ -30,6 +30,48 @@ body {
     background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar a página */
 
 }
+.imgHERO{
+    background-image: url('https://clubedovideogame.com.br/app/uploads/2024/03/original-1.jpg'); /* Define a imagem */
+    background-size: cover; /* ESSENCIAL: Faz a imagem cobrir toda a área */
+    background-position:  bottom center; /* Centraliza a imagem e o bottom faz ela ficar com a parte de baixo aparecendo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar a página */
+
+}
+.img404{
+    background-image: url('https://i.ytimg.com/vi/ciIb2wsV7O0/maxresdefault.jpg'); /* Define a imagem */
+    background-size: cover; /* ESSENCIAL: Faz a imagem cobrir toda a área */
+    background-position:  bottom center; /* Centraliza a imagem e o bottom faz ela ficar com a parte de baixo aparecendo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar a página */
+}
+.casa{
+    background-image: url('https://cdn.shopify.com/s/files/1/0444/8636/1241/files/minecrat_java_edition_pc_peru_2.png?v=1617497731'); /* Define a imagem */
+    background-size: cover; /* ESSENCIAL: Faz a imagem cobrir toda a área */
+    background-position:  bottom center; /* Centraliza a imagem e o bottom faz ela ficar com a parte de baixo aparecendo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar a página */    
+}
+#menu{
+
+    background-image: url('https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e9/Java_Edition_1.20.2.png/revision/latest?cb=20240728040728'); /* Define a imagem */
+    background-size: cover; /* ESSENCIAL: Faz a imagem cobrir toda a área */
+    background-position:  bottom center; /* Centraliza a imagem e o bottom faz ela ficar com a parte de baixo aparecendo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar a página */    
+
+}
+
+.gg{
+    color:blue;
+    position: fixed;
+    
+}
+
+
+
+
+
 
 /* Esconda a imagem se ela for background do body */
 .container img {
@@ -131,10 +173,11 @@ body {
 }
 #contagem{
     font-size: 35px;
-    color: #803ef5;
+    color: blue;
 }
 
 .texto{
     position: fixed;
     top: 0;
+    color: blue;
 }
